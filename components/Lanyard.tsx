@@ -193,7 +193,7 @@ const Progress = styled.div`
 const ProgressFill = styled.div<{ progress: number }>`
   width: 100%;
   height: 5px;
-  background-color: var(--accent);
+  background: linear-gradient(to right, #00ccff, #ff00ee);
   transition: transform 750ms;
   transform: translateX(${(props) => props.progress - 100}%);
 `;

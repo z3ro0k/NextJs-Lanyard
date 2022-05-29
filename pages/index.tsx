@@ -7,6 +7,7 @@ const Lanyard = Dynamic(() => import('../components/Lanyard'), { ssr: false });
 const Index: NextPage = () => {
   return (
     <>
+      <h1> Hi</h1>
       <Lanyard id="325414558623858698" />
     </>
   )
